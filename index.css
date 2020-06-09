@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  background: yellow;
+  font-family: halyard-display, sans-serif;
+  font-style: normal;
+}
+
+.container-wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* FONT STYLES
+--------------------------------------- */
+.ft-large {
+  font-size: 200px;
+  line-height: 130px;
+  letter-spacing: -.5rem;
+  color: red;
+  font-weight: 500;
+}
+
+.ft-large:hover {
+  font-size: 200px;
+  line-height: 130px;
+  letter-spacing: -.5rem;
+  color: blue;
+  transition: background .1s ease-in-out, color .1s ease-in-out;
+  /* background: red; */
+}
+
+.ft-small {
+  font-size: 18px;
+  letter-spacing: .02em;
+  color: blue;
+  font-weight: 500;
+}
+
+.ft-small:hover {
+  color: red;
+}
+
+/* NAVIGATION
+--------------------------------------- */
+.nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin-right: -10px;
+  padding-left: 35px;
+}
+
+.nav {
+  max-width: 87%;
+  flex: 0 0 87%;
+}
+
+.title {
+  position: relative;
+  display: inline;
+}
+
+/* FOOTER
+--------------------------------------- */
+.footer-wrap {
+  width: 100%;
+  max-width: 87%;
+  bottom: 0;
+  left: 0;
+  padding-left: 30px;
+  padding-bottom: 0.5rem;
+  /* padding-right: 25px; */
+  display: block;
+  flex-direction: row;
+  position: fixed;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 87%; */
+  flex: 0 0 87%;
+}
+
+.name2 {
+  color: red;
+}
+
+div.names span.name {
+  display: inline;
+}
+
+div.names:hover span.name {
+  display: none;
+}
+
+div.names span.name2 {
+  display: none;
+}
+
+div.names:hover span.name2 {
+  display: inline;
+}
+
+/* IPHONE
+--------------------------------------- */
+
+@media only screen and (max-width: 855px) {
+
+  .ft-large {
+    font-size: 23vw;
+    line-height: 15vw;
+    letter-spacing: -1vw;
+  }
+
+  .ft-large:hover {
+    font-size: 23vw;
+    line-height: 15vw;
+    letter-spacing: -1vw;
+  }
+
+  .nav-wrap {
+    padding-left: 4vw;
+  }
+
+  .footer-wrap {
+    padding-left: 4vw;
+  }
+
+}
