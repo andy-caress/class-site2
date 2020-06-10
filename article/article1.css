@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  background: yellow;
+  font-family: halyard-display, sans-serif;
+  font-style: normal;
+}
+
+.container-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  overflow: scroll;
+}
+
+.container {
+  width: 95%;
+  left: 50%;
+  top: 50%;
+  margin: auto;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* FONT STYLES
+--------------------------------------- */
+.ft-large {
+  font-size: 200px;
+  line-height: 130px;
+  letter-spacing: -.5rem;
+  color: red;
+  font-weight: 500;
+}
+
+.ft-large:hover {
+  font-size: 200px;
+  line-height: 130px;
+  letter-spacing: -.5rem;
+  color: blue;
+  transition: background .1s ease-in-out, color .1s ease-in-out;
+  /* background: red; */
+}
+
+.ft-medium {
+  font-size: 50px;
+  line-height: 130px;
+  letter-spacing: -.08rem;
+  color: red;
+  background: blue;
+  font-weight: 500;
+}
+
+.ft-medium:hover {
+  font-size: 50px;
+  line-height: 130px;
+  letter-spacing: -.08rem;
+  color: blue;
+  background: red;
+  font-weight: 500;
+}
+
+.ft-small {
+  font-size: 18px;
+  letter-spacing: .02em;
+  color: blue;
+  font-weight: 500;
+}
+
+.ft-small:hover {
+  color: red;
+}
+
+.header {
+  margin: none;
+  padding: none;
+  text-align: center;
+  line-height: 80px;
+}
+
+.headline {
+  font-size: 100px;
+  font-family: halyard-display, sans-serif;
+  font-style: normal;
+  letter-spacing: -.09rem;
+}
+
+.headline2 {
+  font-size: 100px;
+  font-family: a-otf-ryumin-pr6n, serif;
+  font-style: normal;
+  letter-spacing: -.15rem;
+  line-height: 80px;
+}
+
+.intro {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 45px;
+  font-family: a-otf-ryumin-pr6n, serif;
+  font-style: italic;
+  line-height: 45px;
+  text-align: center;
+}
+
+.ft-color {
+  color: red;
+  font-weight: 300;
+}
+
+.ft-copy {
+  width: 60%;
+  left: 50%;
+}
+
+.ft-question {
+  font-weight: 500;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  display: inline-block;
+  /* text-align: justify; */
+  text-indent: -70px;
+  letter-spacing: .03rem;
+}
+
+strong {
+  font-weight: 500;
+  letter-spacing: .03rem;
+}
+
+/* NAVIGATION
+--------------------------------------- */
+.nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
+  padding-left: 35px;
+  padding-right: 35px;
+  position: fixed;
+  justify-content: center;
+
+}
+
+.nav {
+  max-width: 100%;
+  /* flex: 0 0 87%; */
+  display: flex;
+  left: 50%;
+  margin: auto;
+}
+
+.title {
+  justify-content: space-between;
+  position: relative;
+  display: inline;
+}
+
+.titlel {
+  padding-left: 15px;
+}
+
+.titler {
+  padding-right: 15px;
+}
+
+/* INTERVIEW
+--------------------------------------- */
+.content-wrap {
+  width: 100%:
+  height: 100%;
+  max-height: 100vh;
+  display: flex;
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+  max-width: 80%:
+  max-height: 100vh;
+}
+
+/* FOOTER
+--------------------------------------- */
+.footer-wrap {
+  width: 100%;
+  max-width: 87%;
+  bottom: 0;
+  left: 0;
+  padding-left: 30px;
+  padding-bottom: 0.5rem;
+  /* padding-right: 25px; */
+  display: block;
+  flex-direction: row;
+  position: fixed;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 87%; */
+  flex: 0 0 87%;
+}
+
+.name2 {
+  color: red;
+}
+
+div.names span.name {
+  display: inline;
+}
+
+div.names:hover span.name {
+  display: none;
+}
+
+div.names span.name2 {
+  display: none;
+}
+
+div.names:hover span.name2 {
+  display: inline;
+}
+
+/* IPHONE
+--------------------------------------- */
+@media only screen and (max-width: 855px) {
+  .ft-large {
+    font-size: 23vw;
+    line-height: 15vw;
+    letter-spacing: -1vw;
+  }
+
+  .ft-large:hover {
+    font-size: 23vw;
+    line-height: 15vw;
+    letter-spacing: -1vw;
+  }
+
+  .nav-wrap {
+    padding-left: 4vw;
+  }
+
+  .footer-wrap {
+    padding-left: 4vw;
+  }
+}
