@@ -42,6 +42,10 @@ p2 {
   padding-left: 10%;
 }
 
+::selection {
+  background: blue;/* WebKit/Blink Browsers */
+}
+
 /* NAVIGATION
 --------------------------------------- */
 .nav-wrap {
