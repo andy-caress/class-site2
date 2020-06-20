@@ -12,7 +12,6 @@ body {
   line-height:1.2em;
   margin: 20px 30px;
   background: yellow;
-  color: red;
 }
 
 .container-wrap {
@@ -33,9 +32,15 @@ a:hover {
 
 /* FONT STYLES
 --------------------------------------- */
+.nav p {
+  background: none;
+}
+
 p {
   /* padding-bottom: 0px; */
   margin-bottom: 12px;
+  color: red;
+  background: blue;
 }
 
 p2 {
@@ -43,7 +48,7 @@ p2 {
 }
 
 ::selection {
-  background: blue;/* WebKit/Blink Browsers */
+  background: red;/* WebKit/Blink Browsers */
 }
 
 /* NAVIGATION
