@@ -1,6 +1,7 @@
 
 	$( document ).ready(function() {
 		$( ".one" ).click(function() {
+			console.log('click');
   			$(this).addClass("zoomone");
   			$(".two").addClass("zoomtwo");
   			$(".three").addClass("zoomthree");

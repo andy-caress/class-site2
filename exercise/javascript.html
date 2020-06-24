@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+  A CLASS SITE FOR A HANDMADE WEB
+-->
+
+<head>
+
+  <link rel="stylesheet" href="javascript.css">
+  <title>
+    CLASS SITE — Andy Caress
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/ohg1maz.css">
+
+  <script src="jquery.min.js"></script>
+  <script src="javascript.js"></script>
+</head>
+
+<body>
+
+  <div onclick="menuShow()" class="button"> Click me...</div>
+
+  <div id="box" class="menu">
+    the box
+  </div>
+
+</body>
+
+<script>
+  function menuShow() {
+    var element = document.getElementById("box");
+    element.classList.toggle("style");
+  }
+</script>
+
+</html>
