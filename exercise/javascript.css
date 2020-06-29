@@ -6,14 +6,14 @@ body {
   font-family: halyard-display, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 28px;
-  letter-spacing: -.01em;
   -webkit-text-size-adjust: 100%;
   line-height: 1.2em;
   margin: 20px 30px;
 }
 
 .button {
+  letter-spacing: -.01em;
+  font-size: 28px;
   padding: 10px;
   width: 200px;
   cursor: pointer;
@@ -32,4 +32,14 @@ body {
 
 .style {
   transform: translate(-200px);
+}
+
+.marquee {
+  color: red;
+  letter-spacing: -.05em;
+  font-size: 500px;
+  /* width: 100vw; /* the plugin works for responsive layouts so width is not necessary */ */
+  /* overflow: hidden; */
+  /* border:1px solid #ccc; */
+  border-bottom: 3px solid red;
 }
